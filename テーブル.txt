@@ -1,0 +1,26 @@
+BookCode	BookName	Author	CategoryName	DeleteFlag	ReprintCount
+A001	社畜の嘘と罠	此花 咲夜	文芸	FALSE	2
+A002	女医が教える本当に気持ちのいいIT	西川 永子	生活	FALSE	1
+A003	子供を蝕む「幻想郷脳」の恐怖	鳴神 主	生活	FALSE	4
+A004	社会に出る前に知っておくべきSEのこと	織田 龍二	教育	FALSE	1
+A005	世界一美しい八雲	八木 由梨香	芸術	FALSE	1
+A006	効率が１０倍アップする薬剤活用法	稲垣 鈴乃	生活	FALSE	4
+A007	稼ぐ人はみんな守矢を使ってる	佐藤 沙奈江	教育	TRUE	4
+A008	人生がときめく食の魔法	西園寺 優子	趣味	FALSE	3
+A009	魔法暴走時代の果てに	八里 典子	文芸	FALSE	3
+A010	鳥類は衰退しました	三角 麗良	文芸	FALSE	3
+A011	もし高校野球の女子マネージャーが『社畜』になったら	河島 みなこ	教育	FALSE	3
+A012	進撃の月人	月野 依子	コミック	FALSE	6
+A013	22世紀のSQL事情	瀬鷲 伸晃	文芸	FALSE	4
+A014	この素晴らしい世界にエクセルを	阿久亜 水希	コミック	FALSE	4
+A015	なれる！本屋	本居 小鈴	経営	FALSE	5
+A016	這いよれ！Windows	成戸 ほたる	コミック	FALSE	2
+A017	読むだけで痩せるSEダイエット	黒宮 一就	趣味	FALSE	1
+A018	ヤクザに学ぶ信仰	博麗 令那	経営	FALSE	2
+A019	常識としての時給	葛島 忠雄	経営	FALSE	4
+A020	嫦娥に花束を	稲葉 純子	趣味	FALSE	4
+A021	成功者の100%が知っているたった1つの真実、５選！	ジョーン・リガー	経営	FALSE	5
+A022	Midsummer night's wet dream	只野和人	文芸	FALSE	4
+A023	東方儚月抄 Silent Sinner in Blue. 上	ZUN、秋★枝	コミック	FALSE	8
+A024	東方儚月抄 Silent Sinner in Blue. 中	ZUN、秋★枝	コミック	FALSE	8
+A025	東方儚月抄 Silent Sinner in Blue. 底	ZUN、秋★枝	コミック	FALSE	8
