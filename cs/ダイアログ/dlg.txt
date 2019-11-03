@@ -1,0 +1,61 @@
+■■System.Windows.Forms.ListBox
+
+■プロパティ
+	ListBox.ObjectCollection items = listBox1.Items // ListBoxの項目
+	listBox1.Text // 選択選択されているテキスト(MultiExtendedの場合、最初に選択されたテキスト)
+●Items
+	○プロパティ
+		Count
+		IsReadOnly
+		Item
+	○メソッド
+		Add(item)
+		AddRange(items)
+		Clear() // 全削除
+		bool Contains(item) // 指定項目がコレクション内にあるか？
+		CopyTo 
+		GetEnumerator
+		IndexOf
+		Insert
+		Remove
+		RemoveAt
+	
+■メソッド
+	bool isSelected = listbox1.GetSelected (idx); // 指定した項目が選択されているか
+	int idx = listbox1.FindStringExact(text); // 指定した文字列と正確に一致する最初の項目を検索
+	int idx = listbox1.FindString(text); // 指定文字列で始まる最初の項目を検索。(インデックス番号　or -1)
+
+	listBox1.BeginUpdate(); // リストボックスに値を追加する際のパフォーマンスを考慮
+		// ここで liseBox1.Add("Item"); する
+	listBox1.EndUpdate();  
+	listBox1.ClearSelected() // 選択を解除
+	listBox1.SetSelected(idx, true); // インデックス番号の項目を(選択(true)or 非選択(false))
+	listBox1.Sort(); // ListBox内の項目を並び替え
+	
+■イベント
+●SelectedIndexChangedイベント
+// SelectedIndex プロパティまたは SelectedIndices コレクションが変更されたときに発生
+	this.listBox1.SelectedIndexChanged += new EventHandler(listBox1_SelectedIndexChanged);
+
+	private void listBox1_SelectedIndexChanged(object sender, EventArgs e) {
+		string curItem = listBox1.SelectedItem.ToString();
+		string[] curItems = listBox1.SelectedItems.ToString();
+		int curIndex = listBox1.SelectedIndex;
+		string[] curIndecies = listBox1.SelectedIndices.ToString();
+	}
+
+●
+
+■■
+■プロパティ
+■メソッド
+■イベント
+●
+●
+
+■■
+■プロパティ
+■メソッド
+■イベント
+●
+●

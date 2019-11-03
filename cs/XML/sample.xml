@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSampleClass xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SampleClass>
+    <Number>0</Number>
+    <Message>0です。</Message>
+  </SampleClass>
+  <SampleClass>
+    <Number>1</Number>
+    <Message>1です。</Message>
+  </SampleClass>
+</ArrayOfSampleClass>
